@@ -17,7 +17,7 @@ document
 			formattedText +=
 				'<span class="' +
 				colorClass +
-				'" style="border: 1px ' +
+				' chunk" style="border: 1px ' +
 				borderStyle +
 				';">' +
 				chunk.join(" ") +
@@ -27,3 +27,8 @@ document
 		document.getElementById("text").innerHTML = formattedText.trim();
 	});
 0;
+
+document.getElementById("clear-button").addEventListener("click", function () {
+	document.getElementById("text").innerHTML =
+		document.getElementById("text").textContent;
+});
