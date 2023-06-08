@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: grey;
+}
+
+div {
+	font-size: 2rem;
+}
+
+div#lorem {
+	display: flex;
+	width: 600px;
+	background-color: white;
+	align-items: center;
+	justify-content: center;
+	line-height: 5rem;
+	padding: 4rem;
+}
