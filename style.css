@@ -35,13 +35,12 @@ div#input {
 	padding-left: 4rem;
 }
 
-div#lorem {
+div#text-container {
 	width: 600px;
 	background-color: white;
 	line-height: 2rem;
 	padding: 4rem;
-	/* display: flex;
-	flex-flow: row wrap; */
+	line-height: 4rem;
 }
 
 form {
@@ -57,8 +56,10 @@ input {
 	font-size: 1.5rem;
 }
 
-span.chunk {
-	display: flex;
-	flex-flow: row wrap;
-	gap: 1ch;
+.blue {
+	color: blue;
+}
+
+.red {
+	color: red;
 }
