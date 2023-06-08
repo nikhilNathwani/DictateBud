@@ -63,9 +63,10 @@ button {
 }
 
 .blue {
-	color: blue;
+	color: #111;
 }
 
 .red {
-	color: red;
+	color: #777;
+	border-color: #777;
 }
