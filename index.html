@@ -8,9 +8,34 @@
 		<title>Dictate Bud</title>
 	</head>
 	<body>
-		<div id="lorem">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-			dapibus ligula quis ex porta, sed lobortis est venenatis.
+		<div id="pageContainer">
+			<div id="lorem">
+				<div class="word">Lorem</div>
+				<div class="word">ipsum</div>
+				<div class="word">dolor</div>
+				<div class="word">sit</div>
+				<div class="word">amet,</div>
+				<div class="word">consectetur</div>
+				<div class="word">adipiscing</div>
+				<div class="word">elit.</div>
+				<div class="word">Nullam</div>
+				<div class="word">dapibus</div>
+				<div class="word">ligula</div>
+				<div class="word">quis</div>
+				<div class="word">ex</div>
+				<div class="word">porta,</div>
+				<div class="word">lobortis</div>
+				<div class="word">est</div>
+				<div class="word">venenatis.</div>
+			</div>
+			<div id="input">
+				<form id="chunk-size-form">
+					<label for="chunk-size">Chunk Size:</label>
+					<input type="number" id="chunk-size" min="1" max="4" />
+					<input type="submit" value="Submit" />
+				</form>
+			</div>
 		</div>
+		<script src="script.js"></script>
 	</body>
 </html>
